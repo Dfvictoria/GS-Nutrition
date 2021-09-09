@@ -261,7 +261,7 @@ img.img-index {
   /* Index */
   #carouselExampleCaptions {
     width: 150%;
-    right: 5rem;
+    left: 1rem;
   }
   .img-index {
     margin-left: 17%;
