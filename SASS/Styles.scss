@@ -1,0 +1,348 @@
+*
+
+/*RESET*/
+
+{	
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	line-height: 1;
+    &.entrenamiento{
+        font-family: 'Baskervville', serif;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: green;
+        font-weight: 100;
+        background-color: black; 
+    }
+    &.consulta{
+        background-color: black;
+    }
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    font-size: 100%;
+}
+
+h1{
+    &.logoPaginaPrincipal{
+        color: white;
+        font-family: 'Baskervville', serif;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 9rem;
+        text-align: center;
+        margin-top:10rem;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content:center;
+    }
+}
+
+h4{
+    &.pie{
+        position: sticky; bottom: 0;
+        font-family: 'Baskervville', serif;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        color: black;
+        margin-top: 12.5rem;
+        margin-bottom:0;
+        display:block;
+        justify-content:center;
+        margin-right:0;
+    }
+    &.nosotros__mision{
+        color: green;
+    }
+    &.nosotros__team{
+        color: gold;
+    }
+    &.nosotros__miembros{
+        color: white;
+        background-color: black;
+    }
+    &.texto-index{
+        margin-top:7%;
+    }
+}
+
+h5{
+    &.subtituloPaginaPrincipal{
+        margin-top: 0px;
+        font-family: 'Baskervville', serif;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        text-align: center;
+        color: gold;
+    }
+}
+
+video{
+    &.videosize{
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%; 
+        height: 100%;
+        object-fit:cover;   
+    }
+    &.videosize2{
+        position: absolute;
+        z-index: -1;
+        margin-top: 58rem;
+        top: 0;
+        left: 0;
+        width: 100%; 
+        height: 100%;
+        object-fit:cover;
+    }
+}
+
+section{
+    &.nosotros{
+        margin-top: 6%;
+        font-family: 'Baskervville', serif;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;  
+        text-justify:inter-word;
+    }
+}
+
+
+img{
+    
+    &.pie-chat{
+        width: 4.5rem;
+        position: fixed; bottom: 1.2rem;
+        display:block;
+        opacity: 0.65;
+    }
+    &.pie-chat:hover{
+        width: 6.2rem;
+        margin-top: 22rem;
+        margin-left: 152rem;
+        position: fixed; bottom: 3rem;
+        display:block;
+        transition: 0.7s;
+    }
+    &.img-index{
+        width: 100%;
+        margin-top: 5%;
+    }    
+    }
+
+
+#logoImagen{
+    width: 16rem;
+    position:relative; right:72rem; bottom: 8rem;    
+}
+
+#logoImagenShop{
+    width: 16rem;
+    position:absolute; right:0.4rem; bottom: 45rem;   
+}
+
+#formConsulta{
+    color: white;
+    font-family: 'Baskervville', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    text-justify: distribute;
+    position: relative; top: 10rem
+}
+
+#carouselExampleCaptions{
+    width: 60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#icon-social{
+    width: 30%;
+}
+
+.img-descubrinos{
+    width: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.te-of{
+    margin-top: 4%;
+    text-align: center;
+}
+
+#enviar{width: 10%;}
+
+#separador-login{
+    margin-top: 5%;
+}
+
+.wrapper{
+    margin-top: 2%;
+}
+
+#footer{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#categorias{
+    margin-top: 12%;
+}
+
+/* Responsive */
+
+    /* 320 */
+
+    @media only screen and (min-width: 320px) {
+       
+        /* Footer */
+        #icon-social{
+            width: 20%;
+        }
+        #footer{
+            margin-left: 0;
+        }
+
+        #img-footer{
+            display: none;
+        }
+
+       /* Index */
+
+       #carouselExampleCaptions{
+           width: 150%;
+           right: 5rem;
+       }
+        .img-index{
+            margin-left: 17%;
+        }
+
+        .texto-index{
+            margin-left: 27%;
+        }
+
+
+        
+    /* 480 */
+  
+    @media only screen and (min-width: 480px) {
+  
+
+    /* 600 */
+  
+    @media only screen and (min-width: 600px) {
+
+        #categorias{
+            margin-left: 5%;
+        }
+
+        .img-index{
+            width: 200%;
+        }
+
+
+    /* 768 */
+  
+        @media only screen and (min-width: 768px) {
+       
+       /* Index */
+
+        #carouselExampleCaptions{
+         display: flex;
+         position: relative;
+         top:0rem;
+        }
+     
+        #img-index2{
+            margin-left: 50%;
+            margin-right: 0;
+        }
+
+        #texto-index2{
+            margin-left: 50%;
+        }
+        
+  
+    /* 1024 */
+  
+        @media only screen and (min-width: 1024px) {
+  
+     /* Index */
+
+        #texto-index2{
+            margin-left: 75%;
+        }
+
+    /* 1200 */
+  
+        @media only screen and (min-width: 1200px) {
+     
+     /* Index */
+
+        #categorias{
+            margin-left: 0%;
+        }
+
+    /* 1440 */
+  
+        @media only screen and (min-width: 1440px) {
+  
+       /* Index */
+  
+       #carouselExampleCaptions{
+           width: 100%;
+           margin-left: 0;
+           position: relative;
+           left: 0;
+           margin-top: 2rem;
+       }
+       
+       #logoImagen{
+           position:relative;
+           top:60rem;
+           left: 28rem;
+           width: 600px;
+           margin-bottom: 0;
+       }
+
+       #footer{
+           margin-left: 18%;
+       }
+
+       }  
+
+    }
+}
+        }
+    }
+}
+    }
+
+
+
+
+
