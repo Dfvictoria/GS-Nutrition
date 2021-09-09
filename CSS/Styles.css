@@ -260,8 +260,8 @@ img.img-index {
   }
   /* Index */
   #carouselExampleCaptions {
-    width: 100%;
-    left:0;
+    width: 60%;
+    margin-left:0;
   }
   .img-index {
     margin-left: 17%;
