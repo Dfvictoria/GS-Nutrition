@@ -227,6 +227,10 @@ img.img-index {
   margin-top: 12%;
 }
 
+#navbar-color {
+  background-color: aquamarine;
+}
+
 /* Responsive */
 /* 320 */
 @media only screen and (min-width: 320px) {
@@ -325,9 +329,6 @@ img.img-index {
   }
   #footer {
     margin-left: 18%;
-  }
-  .texto-index {
-    font-size: 4rem;
   }
 }
 /*# sourceMappingURL=Styles.css.map */
