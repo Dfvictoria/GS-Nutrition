@@ -257,7 +257,7 @@ img{
         }
 
         .img-index{
-            width: 200%;
+            width: 100%;
         }
 
 
@@ -274,7 +274,7 @@ img{
         }
      
         #img-index2{
-            margin-left: 50%;
+            margin-left: 0%;
             margin-right: 0;
         }
 
@@ -303,6 +303,15 @@ img{
             margin-left: 0%;
         }
 
+        #texto-index2{
+            margin-left: 0%;
+        }
+
+        #col1-index{
+            width: 85%;
+            margin-left: 10%;
+        }
+
     /* 1440 */
   
         @media only screen and (min-width: 1440px) {
@@ -327,6 +336,10 @@ img{
 
        #footer{
            margin-left: 18%;
+       }
+
+       .texto-index{
+           font-size: 30rem;
        }
 
        }  
