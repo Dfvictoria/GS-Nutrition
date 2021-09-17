@@ -227,6 +227,14 @@ img.img-index {
   margin-top: 12%;
 }
 
+#video-login {
+  margin-top: 5%;
+}
+
+#ini-ses {
+  margin-top: 15%;
+}
+
 /* Responsive */
 /* 320 */
 @media only screen and (min-width: 320px) {

@@ -64,7 +64,7 @@
                   Miembros
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item nav-link text-left" href="../pages/Miembros.html">Iniciar Sesión</a></li>
+                  <li ><a class="dropdown-item nav-link text-left" href="../pages/Miembros.html">Iniciar Sesión</a></li>
                   <li><a class="dropdown-item nav-link text-left" href="../pages/Registro.html">Registro</a></li>
                 </ul>
               </li>
@@ -121,14 +121,41 @@
                         Recordar mis datos
                       </label>
                     </div>
-                    <a href="#" class="text-body">Olvidaste tu usuario/contraseña?</a>
+                    <a href="#" class="text-body" data-bs-toggle="modal" data-bs-target="#exampleModal">Olvidaste tu usuario/contraseña?</a>
                   </div>
+
+                  <!-- Olvidaste tu contraseña? -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Restaurar Contraseña</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                  <div class="modal-body">
+                    <input type="email" id="form3Example3" class="form-control form-control-lg"
+                    placeholder="Ingrese su correo electrónico" />
+                  </div>
+                <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+                      <button id="boton-recuperar" type="button" class="btn btn-primary">Enviar</button>
+                      <script>
+                        document.getElementById("boton-recuperar").onclick = function() {myFunction2()};
+                        
+                        function myFunction2() {
+                          document.getElementById("boton-recuperar").innerHTML = "Gracias! En breve te llegarán instrucciones para reiniciar tu contraseña.";
+                        }
+                        </script>
+                  </div>
+                 </div>
+                </div>
+                </div>
         
                   <div class="text-center text-lg-start mt-4 pt-2">
                     <button type="button" class="btn btn-warning btn-lg"
                       style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar</button>
-                    <p class="small fw-bold mt-2 pt-1 mb-0">No sos miembro todavía? <a href="#"
-                        class="link-warning">Registrate</a></p>
+                    <p class="small fw-bold mt-2 pt-1 mb-0">No sos miembro todavía? 
+                      <a href="../pages/Registro.html" class="link-warning">Registrate</a></p>
                   </div>
         
                 </form>
@@ -195,5 +222,6 @@
     </section>  
     
   </body>
+
     
 </html>
