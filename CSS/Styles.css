@@ -174,17 +174,6 @@ img.img-index {
   bottom: 45rem;
 }
 
-#formConsulta {
-  color: white;
-  font-family: 'Baskervville', serif;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
-  text-justify: distribute;
-  position: relative;
-  top: 10rem;
-}
-
 #carouselExampleCaptions {
   width: 100%;
   margin-top: 2%;
@@ -231,6 +220,23 @@ img.img-index {
   margin-top: 5%;
 }
 
+#titular-index {
+  font-family: 'Baskervville', serif;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 15%;
+  font-weight: 1000;
+}
+
+#GS-index-titular {
+  font-family: 'Baskervville', serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #cf9517;
+  font-weight: 1000;
+  font-size: 2rem;
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
 /* Responsive */
 /* 320 */
 @media only screen and (min-width: 320px) {
@@ -267,11 +273,24 @@ img.img-index {
 }
 
 @media only screen and (min-width: 320px) and (min-width: 480px) and (min-width: 600px) {
+  #carouselExampleCaptions {
+    width: 630px;
+    left: 0;
+  }
   #categorias {
     margin-left: 5%;
   }
   .img-index {
     width: 100%;
+  }
+  #vitaminas-index {
+    width: 85%;
+  }
+  #titular-index {
+    font-size: 2rem;
+  }
+  #GS-index-titular {
+    font-size: 4rem;
   }
   /* 768 */
 }
@@ -320,6 +339,12 @@ img.img-index {
     position: relative;
     right: 20rem;
   }
+  #titular-index {
+    font-size: 3rem;
+  }
+  #GS-index-titular {
+    font-size: 5rem;
+  }
   /* 1200 */
 }
 
@@ -342,6 +367,12 @@ img.img-index {
   #col1-index {
     width: 85%;
     margin-left: 10%;
+  }
+  #titular-index {
+    font-size: 3.5rem;
+  }
+  #GS-index-titular {
+    font-size: 5.5rem;
   }
   /* 1440 */
 }
@@ -368,6 +399,12 @@ img.img-index {
   }
   #footer {
     margin-left: 18%;
+  }
+  #titular-index {
+    font-size: 4rem;
+  }
+  #GS-index-titular {
+    font-size: 8rem;
   }
 }
 /*# sourceMappingURL=Styles.css.map */

@@ -163,16 +163,6 @@ img{
     position:absolute; right:0.4rem; bottom: 45rem;   
 }
 
-#formConsulta{
-    color: white;
-    font-family: 'Baskervville', serif;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    text-justify: distribute;
-    position: relative; top: 10rem
-}
-
 #carouselExampleCaptions{
     width: 100%;
     margin-top: 2%;
@@ -217,6 +207,22 @@ img{
     margin-top: 5%;
 }
 
+#titular-index{
+    font-family: 'Baskervville', serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15%;
+    font-weight: 1000;
+}
+
+#GS-index-titular{
+    font-family: 'Baskervville', serif;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(207, 149, 23);
+    font-weight: 1000; font-size: 2rem;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
 /* Responsive */
 
     /* 320 */
@@ -234,7 +240,6 @@ img{
         #img-footer{
             display: none;
         }
-        
 
        /* Index */
 
@@ -265,6 +270,11 @@ img{
   
     @media only screen and (min-width: 600px) {
 
+        #carouselExampleCaptions{
+            width: 630px;
+            left:0;
+        }
+
         #categorias{
             margin-left: 5%;
         }
@@ -273,6 +283,17 @@ img{
             width: 100%;
         }
 
+        #vitaminas-index{
+            width: 85%;
+        }
+
+        #titular-index{
+            font-size: 2rem;
+        }
+        
+        #GS-index-titular{
+            font-size: 4rem;
+        }
 
     /* 768 */
   
@@ -298,8 +319,8 @@ img{
 
         #vitaminas-index{
             width: 85%;
-        }
-        
+        }    
+
   
     /* 1024 */
   
@@ -327,6 +348,14 @@ img{
             right: 20rem;
         }
 
+        #titular-index{
+            font-size: 3rem;
+        }
+        
+        #GS-index-titular{
+            font-size: 5rem;
+        }
+
     /* 1200 */
   
         @media only screen and (min-width: 1200px) {
@@ -351,6 +380,14 @@ img{
         #col1-index{
             width: 85%;
             margin-left: 10%;
+        }
+
+        #titular-index{
+            font-size: 3.5rem;
+        }
+        
+        #GS-index-titular{
+            font-size: 5.5rem;
         }
 
 
@@ -384,6 +421,14 @@ img{
        #footer{
            margin-left: 18%;
        }
+
+       #titular-index{
+        font-size: 4rem;
+        }
+    
+        #GS-index-titular{
+        font-size: 8rem;
+        }
 
        }  
 
