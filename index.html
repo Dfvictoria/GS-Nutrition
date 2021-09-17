@@ -180,7 +180,14 @@
               <div class="input-group">
                 <input type="email" placeholder="Ingresá tu correo electrónico" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
                 <div class="input-group-append">
-                  <button class="btn btn-link"><i class="img-fluid"><img src="./Multimedia/Iconos/enviar.png" id="enviar" alt="boton-enviar"></i></button>
+                  <button id="boton-enviar" class="btn btn-link"><i class="img-fluid"><img src="./Multimedia/Iconos/enviar.png" id="enviar" alt="boton-enviar"></i></button>
+                  <script>
+                    document.getElementById("boton-enviar").onclick = function() {myFunction()};
+                    
+                    function myFunction() {
+                      document.getElementById("boton-enviar").innerHTML = " ✓ Te suscribiste!";
+                    }
+                    </script>
                 </div>
               </div>
             </div>

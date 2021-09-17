@@ -176,7 +176,7 @@
           <div class="container py-5">
             <div class="row py-4">
               <div id="img-footer" class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                <a href="#top"><img src="./Multimedia/GS.png" alt="" width="180" class="mb-3"></a>            
+                <a href="#top"><img src="../Multimedia/GS.png" alt="" width="180" class="mb-3"></a>            
                 <ul class="list-inline mt-4 display inline">
               </div>
               <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
@@ -204,7 +204,14 @@
                   <div class="input-group">
                     <input type="email" placeholder="Ingresá tu correo electrónico" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
                     <div class="input-group-append">
-                      <button class="btn btn-link"><i class="img-fluid"><img src="../Multimedia/Iconos/enviar.png" id="enviar" alt=""></i></button>
+                      <button id="boton-enviar" class="btn btn-link"><i class="img-fluid"><img src="../Multimedia/Iconos/enviar.png" id="enviar" alt="boton-enviar"></i></button>
+                  <script>
+                    document.getElementById("boton-enviar").onclick = function() {myFunction()};
+                    
+                    function myFunction() {
+                      document.getElementById("boton-enviar").innerHTML = " ✓ Te suscribiste!";
+                    }
+                    </script>
                     </div>
                   </div>
                 </div>
