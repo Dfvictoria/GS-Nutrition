@@ -102,19 +102,121 @@
           <div class="container">
             <div class="row">
               <div class="col-sm hover-zoom">
-               <img src="../Multimedia/clases-grupales.png" class="img-flex" id="imgTraining" alt="clases-grupales" width="100%" height="98%">  
+               <img data-bs-toggle="modal" data-bs-target="#modal-c-grupales" src="../Multimedia/clases-grupales.png" class="img-flex" id="imgTraining" alt="clases-grupales" width="100%" height="98%">  
               </div>
-              <div class="col-sm hover-zoom"><img src="../Multimedia/personal-training.png" class="img-flex" id="imgTraining" alt="personal-training" width="100%" height="98%"></div>
+              <div class="col-sm hover-zoom"><img data-bs-toggle="modal" data-bs-target="#modal-p-training" src="../Multimedia/personal-training.png" class="img-flex" id="imgTraining" alt="personal-training" width="100%" height="98%"></div>
             </div>
             <div class="row">
-              <div class="col-sm hover-zoom"><img src="../Multimedia/deportes.png" class="img-flex" id="imgTraining" alt="deportes" width="100%" height="98%"></div>
-              <div class="col-sm hover-zoom"><img src="../Multimedia/rehab.png" class="img-flex" id="imgTraining" alt="rehabilitacion" width="100%" height="98%"></div>
+              <div class="col-sm hover-zoom"><img data-bs-toggle="modal" data-bs-target="#modal-prep-d" src="../Multimedia/deportes.png" class="img-flex" id="imgTraining" alt="deportes" width="100%" height="98%"></div>
+              <div class="col-sm hover-zoom"><img data-bs-toggle="modal" data-bs-target="#modal-rehab" src="../Multimedia/rehab.png" class="img-flex" id="imgTraining" alt="rehabilitacion" width="100%" height="98%"></div>
             </div>
           </div>
         </div>
 
+      <!-- Modal -->
+
+        <!-- Clases Grupales -->
+
+        <div class="modal fade" id="modal-c-grupales" tabindex="-1" aria-labelledby="modal-c-grupales-label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal-c-grupales-label"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Viví la experiencia de estas intensas sesiones junto a tus amigos, familia o pareja!</p>
+                <p>· Instructores expertos que guían con rutinas dinámicas, elaboradas y sobre todo divertidas.</p>
+                <p>· Paquetes flexibles semanales, quincenales o mensuales. Vos elegís.</p>
+                <h4>Precios accesibles por un entrenamiento increíble.</h4>
+                <h2>| SOLO EN GS |</h2>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn" data-bs-dismiss="modal">Atrás</button>
+                <a href="../pages/Registro.html"><button type="button" class="btn btn-warning">Registrarme</button></a>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Personal Training -->
+
+        <div class="modal fade" id="modal-p-training" tabindex="-1" aria-labelledby="modal-p-training-label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal-p-training-label"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Recibí la atención que buscás para llegar a tus metas 100% personales.</p>
+                <p>· Pérdida de peso, estilo de vida saludable o entrenamiento intensivo -- podemos con todo.</p>
+                <p>· Rutinas en persona que se ajustan a tu estilo de vida, más ejercicios complementarios para tu hogar.</p>
+                <h4>Precios accesibles por un entrenamiento increíble.</h4>
+                <h2>| SOLO EN GS |</h2>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn" data-bs-dismiss="modal">Atrás</button>
+                <a href="../pages/Registro.html"><button type="button" class="btn btn-warning">Registrarme</button></a>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prep Deportiva -->
+
+        <div class="modal fade" id="modal-prep-d" tabindex="-1" aria-labelledby="modal-prep-d-label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal-prep-d-label"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Buscás coaching para el/los deporte(s) que realizás?</p>
+                <p>· Condicionamiento físico. mental y emocional para dar el 100% todo el tiempo.</p>
+                <p>· Academia especializada con maestros del rubro.</p>
+                <h4>Precios accesibles por un entrenamiento increíble.</h4>
+                <h2>| SOLO EN GS |</h2>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn" data-bs-dismiss="modal">Atrás</button>
+                <a href="../pages/Registro.html"><button type="button" class="btn btn-warning">Registrarme</button></a>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rehabilitación -->
+
+        <div class="modal fade" id="modal-rehab" tabindex="-1" aria-labelledby="modal-rehab-label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal-rehab-label"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Recuperate con nuestro equipo experto en lesiones, golpes y condiciones crónicas.</p>
+                <p>· Equipamiento de primer nivel para ejercitar y ponerte a punto.</p>
+                <p>· Sesiones especiales de masajes, acupuntura y terapias alternativas.</p>
+                <h4>Precios accesibles por un entrenamiento increíble.</h4>
+                <h2>| SOLO EN GS |</h2>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn" data-bs-dismiss="modal">Atrás</button>
+                <a href="../pages/Registro.html"><button type="button" class="btn btn-warning">Registrarme</button></a>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Separador -->
+
         <div id="separador-login" class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-warning"></div>
       </section>
+
+      <!-- Footer -->
             
       <footer class="bg-white">
         <div class="container py-5">
