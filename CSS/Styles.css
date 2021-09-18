@@ -237,6 +237,13 @@ img.img-index {
   margin-bottom: 0%;
 }
 
+#titular-training {
+  font-family: 'Baskervville', serif;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 2%;
+  font-weight: 1000;
+}
+
 /* Responsive */
 /* 320 */
 @media only screen and (min-width: 320px) {
