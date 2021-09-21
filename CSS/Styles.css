@@ -262,10 +262,6 @@ img.img-index {
   #img-footer {
     display: none;
   }
-  #boton-carrito {
-    width: 30%;
-    margin-bottom: 6%;
-  }
   /* Index */
   #carouselExampleCaptions {
     width: 100%;
@@ -346,9 +342,6 @@ img.img-index {
   #vitaminas-index {
     width: 85%;
   }
-  #boton-carrito {
-    margin-bottom: 3%;
-  }
   /* 1024 */
 }
 
@@ -382,9 +375,8 @@ img.img-index {
   #separador-training {
     font-size: 120%;
   }
-  #boton-carrito {
-    width: 100%;
-    margin-top: 3%;
+  #boton-busqueda {
+    text-transform: inherit;
   }
   /* 1200 */
 }
