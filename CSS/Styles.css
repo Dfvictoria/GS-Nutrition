@@ -262,6 +262,13 @@ img.img-index {
   #img-footer {
     display: none;
   }
+  #separador-login {
+    display: none;
+  }
+  #pie-registro {
+    position: relative;
+    top: 15rem;
+  }
   /* Index */
   #carouselExampleCaptions {
     width: 100%;
@@ -280,12 +287,6 @@ img.img-index {
   #separador-training {
     font-size: 63%;
   }
-  
-  #pie-registro{
-		position:relative;
-		top:12rem;
-	    }
-  
   /* 480 */
 }
 
@@ -383,6 +384,9 @@ img.img-index {
   }
   #boton-busqueda {
     text-transform: inherit;
+  }
+  #separador-login {
+    display: inline;
   }
   /* 1200 */
 }

@@ -254,6 +254,14 @@ img{
             display: none;
         }
 
+        #separador-login{
+            display: none;
+        }
+
+        #pie-registro{
+            position: relative;
+            top: 15rem;
+        }
 
        /* Index */
 
@@ -278,11 +286,6 @@ img{
         #separador-training{
             font-size: 63%;
         }
-	    
-	#pie-registro{
-		position:relative;
-		top:12rem;
-	    }
         
     /* 480 */
   
@@ -400,6 +403,10 @@ img{
 
         #boton-busqueda{
             text-transform: inherit;
+        }
+
+        #separador-login{
+            display: inline;
         }
 
     /* 1200 */
