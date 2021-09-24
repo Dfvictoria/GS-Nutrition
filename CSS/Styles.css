@@ -280,6 +280,12 @@ img.img-index {
   #separador-training {
     font-size: 63%;
   }
+  
+  #pie-registro{
+		position:relative;
+		top:12rem;
+	    }
+  
   /* 480 */
 }
 
