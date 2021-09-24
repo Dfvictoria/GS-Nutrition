@@ -388,6 +388,9 @@ img.img-index {
   #separador-login {
     display: inline;
   }
+  #pie-registro {
+    top: 10rem;
+  }
   /* 1200 */
 }
 
