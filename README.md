@@ -5,15 +5,14 @@
 <!-- SOBRE -->
 ### Acerca del proyecto
 
-![ScreenShot](Multimedia/captura-readme.PNG)
+![ScreenShot](Multimedia/capturareadme.PNG)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+Gold Standard Nutrition o **GS Nutrition** es una empresa ficticia que ofrece productos y servicios relacionados a la salud, deporte y recuperación física tales como `suplementos`, `vitaminas`, `comidas y bebidas`, `ropa deportiva`, `pesas y equipamiento de gym`y `entrenamiento personalizado/grupal`.
 
 
-### Built With
+### Herramientas Utilizadas
 
-* []()
-* []()
-* []()
+* Visual Studio
+* HTML
+* CSS
+* GitBash / GitHub
