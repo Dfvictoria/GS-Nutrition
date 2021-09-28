@@ -34,7 +34,7 @@ Los usuarios pueden loguearse a su cuenta o bien crear una nueva.
 
 * Visual Studio
 * HTML
-* CSS
+* CSS/SASS
 * Bootstrap
 * MDB
 * Google Fonts
@@ -54,5 +54,5 @@ Proyecto: https://dfvictoria.github.io/GS-Nutrition/
 <!-- AGRADECIMIENTOS -->
 ## Muchísimas gracias a:
 
-* Profesor Rodrigo Zungri, por las clases dinámicas, informativas y claras. Este es mi primer curso en Coder y realmente espero que los siguientes profesores enseñen así!
+* Profesor Rodrigo Zungri, por las clases dinámicas, informativas y claras. Este es mi primer curso en Coder y me llevo una excelente impresión.
 * Tutor Joaquín Gonzalez, por las respuestas a mis interminables preguntas específicas por Slack y ser tan atento para ayudar. Un genio.
