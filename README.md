@@ -3,7 +3,7 @@
 <h2 align="center"> Proyecto Final - Coder Diseño Web Comisión 22220 - David Victoria </h2>
 
 <!-- SOBRE -->
-## Acerca del proyecto
+### Acerca del proyecto
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
