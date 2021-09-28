@@ -5,7 +5,7 @@
 <!-- SOBRE -->
 ## Acerca del proyecto
 
-![ScreenShot](Multimedia/readme.png)
+![ScreenShot](Multimedia/readme.PNG)
 
 Gold Standard Nutrition o **GS Nutrition** es una empresa ficticia que ofrece productos y servicios relacionados a la salud, deporte y recuperación física tales como `suplementos`, `vitaminas`, `comidas y bebidas`, `ropa deportiva`, `pesas y equipamiento de gym`y `entrenamiento personalizado/grupal`.
 También incluye un sistema de membresía con pago mensual para disfrutar ciertos beneficios premium, tales como son descriptos en "Descubrinos".
@@ -40,12 +40,19 @@ Los usuarios pueden loguearse a su cuenta o bien crear una nueva.
 * Google Fonts
 * GitBash / GitHub
 * Canva
-* Chrome (testeo de responsive)
+* Adobe Photoshop
+* Google Chrome (testeo de responsive)
 
 
 <!-- CONTACTO -->
 ## Contacto
 
-David Floreal Victoria - [David Victoria](https://twitter.com/FlorealV) - df.victoria@outlook.com
+[David Victoria](https://twitter.com/FlorealV) - df.victoria@outlook.com
 
 Proyecto: https://dfvictoria.github.io/GS-Nutrition/
+
+<!-- AGRADECIMIENTOS -->
+## Muchísimas gracias a:
+
+* Profesor Rodrigo Zungri, por las clases dinámicas, informativas y claras. Este es mi primer curso en Coder y realmente espero que los siguientes profesores enseñen así!
+* Tutor Joaquín Gonzalez, por las respuestas a mis interminables preguntas específicas por Slack y ser tan atento para ayudar. Un genio.
