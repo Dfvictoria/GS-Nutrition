@@ -5,7 +5,7 @@
 <!-- SOBRE -->
 ### Acerca del proyecto
 
-[![Product Name Screen Shot][product-screenshot]](./Multimedia/captura-readme.png)
+![ScreenShot](Multimedia/captura-readme.png)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
